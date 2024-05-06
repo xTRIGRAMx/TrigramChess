@@ -38,8 +38,7 @@ public class BoardUtil
             row[rowNumber] = true;
             rowNumber ++;
         }while(rowNumber % NUM_TILES_PER_ROW != 0);
-        return row;
-    }
+        return row;    }
     private static boolean[] initColumn(int columnNumber) 
     {
         final boolean[] column = new boolean[64];
@@ -62,7 +61,7 @@ public class BoardUtil
     must make it a utility method
      */
     public static boolean isValidTileCoordinate(final int coordinate) {
-        return coordinate >= 0 && coordinate < NUM_TILES_PER_ROW;
+        return coordinate >= 0 && coordinate < NUM_TILES;
     }
 	// a utility method to calculate whether a piece is on the correct tile 
 	
