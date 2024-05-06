@@ -27,7 +27,7 @@ public class WhitePlayer extends Player
 
     @Override
     public Player getOpponent() {
-        return this.board.whitePlayer();
+        return this.board.blackPlayer();
     }
 
     @Override
