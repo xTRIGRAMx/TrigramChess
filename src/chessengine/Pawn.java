@@ -10,7 +10,11 @@ public class Pawn extends Piece
     private static final int[]CANDIDATE_MOVE_COORDINATE = {8,16,7,9};
     Pawn(final int piecePosition,final Alliance pieceAlliance)
     {
-        super(PieceType.PAWN,piecePosition, pieceAlliance);
+        super(PieceType.PAWN,piecePosition, pieceAlliance,true);
+    }
+    Pawn(final int piecePosition,final Alliance pieceAlliance,final boolean isFirstMove)
+    {
+        super(PieceType.PAWN,piecePosition, pieceAlliance,isFirstMove);
     }
     @Override
     public Collection<Move> calculateLegalMoves(final Board board)
@@ -40,8 +44,8 @@ public class Pawn extends Piece
                 legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
             }
             else if (currentCandidateOffset == 16 && this.isFirstMove() 
-                 && (BoardUtil.SEVENTH_RANK[this.piecePosition] && this.getPieceAlliance().isBlack()) 
-                 || (BoardUtil.SECOND_RANK[this.piecePosition])&& this.getPieceAlliance().isWhite()) 
+                 && ((BoardUtil.SEVENTH_RANK[this.piecePosition] && this.getPieceAlliance().isBlack()) 
+                 || (BoardUtil.SECOND_RANK[this.piecePosition]&& this.getPieceAlliance().isWhite())) )
             {
                 final int behindCandidateDestinationCoordinate 
                            = this.piecePosition + this.pieceAlliance.getDirection() * 8;

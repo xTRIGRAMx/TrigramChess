@@ -16,9 +16,12 @@ import java.util.List;
  */
 public class King extends Piece{
 
-    public King(int piecePosition, Alliance pieceAlliance) {
-        super(PieceType.KING,piecePosition, pieceAlliance);
+    public King(final int piecePosition,final Alliance pieceAlliance) {
+        super(PieceType.KING,piecePosition, pieceAlliance,true);
     }
+    public King(final int piecePosition,final Alliance pieceAlliance,final boolean isFirstMove) {
+        super(PieceType.KING,piecePosition, pieceAlliance,isFirstMove);
+    }    
     private static final int[]CANDIDATE_MOVE_COORDINATE = {-9,-8,-7,-1,1,7,8,9};
 
     @Override

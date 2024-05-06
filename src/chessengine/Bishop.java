@@ -9,9 +9,12 @@ import java.util.List;
 public class Bishop extends Piece
 {
     private static final int[]CANDIDATE_MOVE_VECTOR_COORDINATE = {-9,-7,7,9};
-    public Bishop(int piecePosition, Alliance pieceAlliance) {
-        super(PieceType.BISHOP,piecePosition, pieceAlliance);
+    public Bishop(final int piecePosition,final Alliance pieceAlliance) {
+        super(PieceType.BISHOP,piecePosition, pieceAlliance,true);
     }
+    public Bishop(final int piecePosition,final Alliance pieceAlliance,final boolean isFirstMove) {
+        super(PieceType.BISHOP,piecePosition, pieceAlliance,isFirstMove);
+    }    
     @Override
     public Collection<Move> calculateLegalMoves(final Board board) 
     {
