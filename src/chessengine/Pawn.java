@@ -59,7 +59,7 @@ public class Pawn extends Piece
                 if(!board.getTile(behindCandidateDestinationCoordinate).isTileOccupied()
                 && !board.getTile(candidateDestinationCoordinate).isTileOccupied())
                 {
-                    legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                    legalMoves.add(new Move.PawnJump(board, this, candidateDestinationCoordinate));
                 }
                 else if(currentCandidateOffset == 7 &&
                         (!(BoardUtil.EIGHTH_COLUMN[this.piecePosition] && this.pieceAlliance.isWhite() 
@@ -71,7 +71,7 @@ public class Pawn extends Piece
                         if(this.pieceAlliance != pieceOnCandidate.pieceAlliance)
                         {
                             //more WORK to do 
-                            legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                            legalMoves.add(new Move.AttackMove(board, this, candidateDestinationCoordinate,pieceOnCandidate));
                         }
                     }
                     
@@ -88,7 +88,7 @@ public class Pawn extends Piece
                         if(this.pieceAlliance != pieceOnCandidate.pieceAlliance)
                         {
                             //more WORK to do 
-                            legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                            legalMoves.add(new Move.AttackMove(board, this, candidateDestinationCoordinate,pieceOnCandidate));
                         }
                     }
                 }

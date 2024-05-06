@@ -9,9 +9,10 @@ import java.util.Iterator;
 
 public abstract class Move 
 {
-    final Board board;
-    final Piece movedPiece;
+    protected final Board board;
+    protected final Piece movedPiece;
     final int destinationCoordinate;
+    protected final boolean isFirstMove;
     public static final  Move NULL_MOVE = new NullMove() {
     };
     Move(final Board board, 
@@ -21,6 +22,17 @@ public abstract class Move
         this.board = board;
         this.movedPiece = movedPiece;
         this.destinationCoordinate = destinationCoordinate;
+        this.isFirstMove = movedPiece.isFirstMove;
+    }
+    Move(final Board board, 
+                 final Piece movedPiece, 
+                 final int destinationCoordinate,
+                 final boolean isFirstMove) 
+    {
+        this.board = board;
+        this.movedPiece = movedPiece;
+        this.destinationCoordinate = destinationCoordinate;
+        this.isFirstMove = false;
     }
     @Override
     public int hashCode()
@@ -29,6 +41,7 @@ public abstract class Move
         int result = 1;
         result = prime * result + this.destinationCoordinate;
         result = prime * result + this.movedPiece.hashCode();
+        result = prime * result + this.movedPiece.getPiecePosition();
         return result;
     }
     @Override 
@@ -43,8 +56,9 @@ public abstract class Move
             return false;
         }
         final Move otherMove = (Move)other;
-        return getDestinationCoordinate()== otherMove.getDestinationCoordinate() &&
-               getMovedPiece().equals(otherMove.getMovedPiece()) ;
+        return getCurrentCoordinate() == otherMove.getCurrentCoordinate()
+               && getDestinationCoordinate()== otherMove.getDestinationCoordinate() 
+               && getMovedPiece().equals(otherMove.getMovedPiece()) ;
     }
     public int getCurrentCoordinate()
     {
@@ -100,6 +114,15 @@ public abstract class Move
         {
             super(board,movedPiece,destinationCoordinate);      
         }
+        public boolean equals(final Object other)
+        {
+            return this == other || other instanceof MajorMove && super.equals(other);
+        }
+        @Override
+        public String toString()
+        {
+           return movedPiece.getPieceType().toString()+BoardUtil.getPositionAtCoordinate(this.destinationCoordinate);
+        }
         @Override
         public Board execute()
         {
@@ -147,7 +170,7 @@ public abstract class Move
 
         final Piece attackedPiece;
 
-        public AttackMove(final Board board, final Piece movedPiece, final int destinationCoordinate, final Piece attackedPiece) {
+         public AttackMove(final Board board, final Piece movedPiece, final int destinationCoordinate, final Piece attackedPiece) {
             super(board, movedPiece, destinationCoordinate);
             this.attackedPiece = attackedPiece;
         }
@@ -240,17 +263,13 @@ public abstract class Move
         public Board execute()
         {
             final Builder builder = new Builder();
-            for(final Piece piece :this.board.currentPlayer().getActivePieces())
+            Collection<Piece> allPieces = this.board.getAllActivePieces();
+            for (final Piece piece : allPieces) 
             {
-               if(!this.movedPiece.equals(piece)) 
-               {
-                   builder.setPiece(piece);
-               }
-            }
-            for(final Piece piece : this.board.currentPlayer().getOpponent().getActivePieces())
-            {
-                builder.setPiece(piece);
-            }
+                if (!this.movedPiece.equals(piece)) {
+                    builder.setPiece(piece);
+                }         
+            }            
             final Pawn movedPawn = (Pawn)this.movedPiece.movePiece(this);
             builder.setPiece(movedPawn);
             builder.setEnPassantPawn(movedPawn);

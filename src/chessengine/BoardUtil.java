@@ -5,6 +5,9 @@
  */
 package chessengine;
 
+import java.util.List;
+import java.util.Map;
+
 /**
  *
  * @author User
@@ -26,6 +29,8 @@ public class BoardUtil
     public static final boolean[] THIRD_RANK = initRow(40);
     public static final boolean[] SECOND_RANK = initRow(48);
     public static final boolean[] FIRST_RANK = initRow(56);
+    public final Map<String, Integer> POSITION_TO_COORDINATE = initializePositionToCoordinateMap();
+    public final List<String> ALGEBRAIC_NOTATION = initializeAlgebraicNotation();
     
     /*
     method for initializing & keeping track of a particular column on the chessBoard
@@ -49,6 +54,15 @@ public class BoardUtil
         }while(columnNumber < NUM_TILES);
         return column;
     }   
+
+    public int getCoordinateAtPosition(final String position) {
+        return POSITION_TO_COORDINATE.get(position);
+    }
+
+    public String getPositionAtCoordinate(final int coordinate) {
+        return ALGEBRAIC_NOTATION.get(coordinate);
+    }
+    
     private BoardUtil()
     {
         /*
