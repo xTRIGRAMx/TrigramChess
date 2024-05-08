@@ -69,20 +69,19 @@ public abstract class Move
      */   
     public Board execute()
     {
-        final Board.Builder builder = new Board.Builder();
-        for (final Piece piece : this.board.currentPlayer().getActivePieces()) {
-            //TODO hascode and equals for pieces
-            if (!this.movedPiece.equals(piece)) {
-                builder.setPiece(piece);
-            }
-        }
-        for (final Piece piece : this.board.currentPlayer().getOpponent().getActivePieces()) {
-            builder.setPiece(piece);
-        }
-        //move the moved piece
-        builder.setPiece(this.movedPiece.movePiece(this));
-        builder.setMoveMaker(this.board.currentPlayer().getOpponent().getAlliance());
-        return builder.build();        
+            final Board.Builder builder = new Board.Builder();
+            Collection<Piece> allPieces = this.board.getAllActivePieces();
+            for (final Piece piece : allPieces) 
+            {
+//              TODO hascode and equals for pieces
+                if (!this.movedPiece.equals(piece)) {
+                    builder.setPiece(piece);
+                }           
+            }             
+            builder.setPiece(this.movedPiece.movePiece(this));
+            builder.setPiece(board.currentPlayer().playerKing);
+            builder.setMoveMaker(this.board.currentPlayer().getOpponent().getAlliance());
+            return builder.build();      
     }
 
     public int getDestinationCoordinate() {
@@ -99,46 +98,6 @@ public abstract class Move
                          final int destinationCoordinate)
         {
             super(board,movedPiece,destinationCoordinate);      
-        }
-        @Override
-        public Board execute()
-        {
-            final Board.Builder builder = new Board.Builder();
-//            this.board.currentPlayer().getActivePieces().stream().filter(piece -> !this.movedPiece.equals(piece)).forEach(builder::setPiece);
-//            this.board.currentPlayer().getOpponent().getActivePieces().forEach(builder::setPiece);            
-//            for (final Piece piece : this.board.currentPlayer().getActivePieces()) {
-//                //TODO hascode and equals for pieces
-//                if (!this.movedPiece.equals(piece)) {
-//                    builder.setPiece(piece);
-//                }
-//            }
-            Board testBoard = this.board;
-            Collection<Piece> allPieces = this.board.getAllActivePieces();
-            Collection<Piece> blackPieces = this.board.currentPlayer().getOpponent().getActivePieces();
-//            allPieces.add(movedPiece);
-//            for(final Piece piece:blackPieces )
-//            {
-//                allPieces.add(piece);
-////              allPieces.add((Piece) this.board.currentPlayer().getOpponent().getActivePieces());                              
-//            }
-            for (final Piece piece : allPieces) 
-            {
-//              TODO hascode and equals for pieces
-                if (!this.movedPiece.equals(piece)) {
-                    builder.setPiece(piece);
-                }
-//                if (testBoard.getTile(63-piece.piecePosition).equals(this.movedPiece.getPiecePosition())) {
-//                    builder.setPiece(piece);
-//                }            
-            }             
-//            for (final Piece piece : this.board.currentPlayer().getOpponent().getActivePieces()) {
-//                builder.setPiece(piece);
-//            }
-            //move the moved piece
-            builder.setPiece(this.movedPiece.movePiece(this));
-            builder.setPiece(board.currentPlayer().playerKing);
-            builder.setMoveMaker(this.board.currentPlayer().getOpponent().getAlliance());
-            return builder.build(); 
         }
     }
     
