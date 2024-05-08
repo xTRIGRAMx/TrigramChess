@@ -112,11 +112,7 @@ public abstract class Move
             BoardUtil.getPositionAtCoordinate(this.destinationCoordinate);            
         }
 
-        @Override
-        public int hashCode() {
-            int hash = 5;
-            return hash;
-        }
+
     }
     
 
