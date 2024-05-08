@@ -41,7 +41,7 @@ public class Pawn extends Piece
             if(currentCandidateOffset == 8 && !board.getTile(candidateDestinationCoordinate).isTileOccupied())
             {
                 //hmm more WORK to do here (>_<)deal wit promotions!!!
-                legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                legalMoves.add(new Move.PawnMove(board, this, candidateDestinationCoordinate));
             }
             else if (currentCandidateOffset == 16 && this.isFirstMove() 
                  && ((BoardUtil.SEVENTH_RANK[this.piecePosition] && this.getPieceAlliance().isBlack()) 
@@ -59,9 +59,10 @@ public class Pawn extends Piece
                 if(!board.getTile(behindCandidateDestinationCoordinate).isTileOccupied()
                 && !board.getTile(candidateDestinationCoordinate).isTileOccupied())
                 {
-                    legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                    legalMoves.add(new Move.PawnJump(board, this, candidateDestinationCoordinate));
                 }
-                else if(currentCandidateOffset == 7 &&
+            }
+                            else if(currentCandidateOffset == 7 &&
                         (!(BoardUtil.EIGHTH_COLUMN[this.piecePosition] && this.pieceAlliance.isWhite() 
                         || BoardUtil.FIRST_COLUMN[this.piecePosition]  && this.pieceAlliance.isBlack())) )
                 {
@@ -71,7 +72,7 @@ public class Pawn extends Piece
                         if(this.pieceAlliance != pieceOnCandidate.pieceAlliance)
                         {
                             //more WORK to do 
-                            legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                            legalMoves.add(new Move.PawnAttackMove(board, this, candidateDestinationCoordinate,pieceOnCandidate));
                         }
                     }
                     
@@ -88,11 +89,10 @@ public class Pawn extends Piece
                         if(this.pieceAlliance != pieceOnCandidate.pieceAlliance)
                         {
                             //more WORK to do 
-                            legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                            legalMoves.add(new Move.PawnAttackMove(board, this, candidateDestinationCoordinate,pieceOnCandidate));
                         }
                     }
                 }
-            }
         
         }
         return Collections.unmodifiableList(legalMoves);

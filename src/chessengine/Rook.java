@@ -60,7 +60,7 @@ public class Rook extends Piece
                         final Alliance pieceAlliance = pieceAtDestinationTile.getPieceAlliance();
                         if(this.pieceAlliance != pieceAlliance)
                         {
-                            legalMoves.add(new Move.AttackMove(board, this, candidateDestinationCoordinate, pieceAtDestinationTile));
+                            legalMoves.add(new Move.MajorAttackMove(board, this, candidateDestinationCoordinate, pieceAtDestinationTile));
                         } 
                         break;
                     } 
