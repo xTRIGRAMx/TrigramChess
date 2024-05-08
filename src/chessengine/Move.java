@@ -29,6 +29,7 @@ public abstract class Move
         int result = 1;
         result = prime * result + this.destinationCoordinate;
         result = prime * result + this.movedPiece.hashCode();
+        result = prime * result + this.movedPiece.getPiecePosition();
         return result;
     }
     @Override 
@@ -43,7 +44,8 @@ public abstract class Move
             return false;
         }
         final Move otherMove = (Move)other;
-        return getDestinationCoordinate()== otherMove.getDestinationCoordinate() &&
+        return getCurrentCoordinate() == otherMove.getCurrentCoordinate() &&
+                getDestinationCoordinate()== otherMove.getDestinationCoordinate() &&
                getMovedPiece().equals(otherMove.getMovedPiece()) ;
     }
     public int getCurrentCoordinate()
@@ -73,7 +75,6 @@ public abstract class Move
             Collection<Piece> allPieces = this.board.getAllActivePieces();
             for (final Piece piece : allPieces) 
             {
-//              TODO hascode and equals for pieces
                 if (!this.movedPiece.equals(piece)) {
                     builder.setPiece(piece);
                 }           
@@ -98,6 +99,23 @@ public abstract class Move
                          final int destinationCoordinate)
         {
             super(board,movedPiece,destinationCoordinate);      
+        }
+        @Override
+        public boolean equals(final Object other)
+        {
+            return this ==(other) || other instanceof MajorMove && super.equals(other);
+        }
+        @Override
+        public String toString()
+        {
+            return movedPiece.getPieceType().toString() +
+            BoardUtil.getPositionAtCoordinate(this.destinationCoordinate);            
+        }
+
+        @Override
+        public int hashCode() {
+            int hash = 5;
+            return hash;
         }
     }
     
