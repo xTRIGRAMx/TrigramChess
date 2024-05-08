@@ -12,6 +12,7 @@ public abstract class Move
     final Board board;
     final Piece movedPiece;
     final int destinationCoordinate;
+    final boolean isFirstMove;
     public static final  Move NULL_MOVE = new NullMove() {
     };
     Move(final Board board, 
@@ -21,7 +22,16 @@ public abstract class Move
         this.board = board;
         this.movedPiece = movedPiece;
         this.destinationCoordinate = destinationCoordinate;
+        this.isFirstMove = movedPiece.isFirstMove();
     }
+    Move(final Board board, 
+        final int destinationCoordinate) 
+    {
+        this.board = board;
+        this.destinationCoordinate = destinationCoordinate;
+        this.movedPiece = null;
+        this.isFirstMove = false;
+    }    
     @Override
     public int hashCode()
     {
@@ -323,7 +333,7 @@ public abstract class Move
     {
         public NullMove()
         {
-            super(null,null,-1);      
+            super(null,-1);      
         }
         @Override
         public Board execute()
