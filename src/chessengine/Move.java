@@ -254,12 +254,12 @@ public abstract class Move
             Collection<Piece> allPieces = this.board.getAllActivePieces();
             for (final Piece piece : allPieces) 
             {
-                if (!this.movedPiece.equals(piece)) {
+                if (!(this.movedPiece.equals(piece)) && !piece.equals(this.attackedPiece) ) {
                     builder.setPiece(piece);
                 }           
-            }             
-            builder.setPiece(this.movedPiece.movePiece(this));
-            builder.setPiece(board.currentPlayer().playerKing);
+            }  
+            final Pawn movedPawn = (Pawn)this.movedPiece.movePiece(this); 
+            builder.setPiece(movedPawn);
             builder.setMoveMaker(this.board.currentPlayer().getOpponent().getAlliance());
             return builder.build();
         }

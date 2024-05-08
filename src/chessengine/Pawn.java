@@ -62,9 +62,9 @@ public class Pawn extends Piece
                     legalMoves.add(new Move.PawnJump(board, this, candidateDestinationCoordinate));
                 }
             }
-                            else if(currentCandidateOffset == 7 &&
-                        (!(BoardUtil.EIGHTH_COLUMN[this.piecePosition] && this.pieceAlliance.isWhite() 
-                        || BoardUtil.FIRST_COLUMN[this.piecePosition]  && this.pieceAlliance.isBlack())) )
+                else if(currentCandidateOffset == 7 &&
+                    !((BoardUtil.EIGHTH_COLUMN[this.piecePosition] && this.pieceAlliance.isWhite() ||
+                      (BoardUtil.FIRST_COLUMN[this.piecePosition] && this.pieceAlliance.isBlack()))))
                 {
                     if(board.getTile(candidateDestinationCoordinate).isTileOccupied())
                     {
@@ -75,14 +75,24 @@ public class Pawn extends Piece
                             legalMoves.add(new Move.PawnAttackMove(board, this, candidateDestinationCoordinate,pieceOnCandidate));
                         }
                     }
-                    
-                    
+                    else if (board.getEnPassantPawn() != null) 
+                    {
+                        if(board.getEnPassantPawn().getPiecePosition() ==
+                        (this.piecePosition + (this.pieceAlliance.getOppositeDirection())))
+                        {
+                            final Piece candidatePiece = board.getEnPassantPawn();
+                            if (this.pieceAlliance != candidatePiece.getPieceAlliance()) 
+                            {
+                                legalMoves.add(
+                                new Move.PawnEnPassantAttackMove(board, this, candidateDestinationCoordinate, candidatePiece));                        
+                            }                            
+                        }
+                    }                   
                 }
-                else if (currentCandidateOffset == 9 && 
-                        (!(BoardUtil.FIRST_COLUMN[this.piecePosition] && this.pieceAlliance.isWhite() 
-                        || BoardUtil.EIGHTH_COLUMN[this.piecePosition]  && this.pieceAlliance.isBlack())))
-                {
-                    
+                else if (currentCandidateOffset == 9 &&
+                    !((BoardUtil.FIRST_COLUMN[this.piecePosition] && this.pieceAlliance.isWhite() ||
+                      (BoardUtil.EIGHTH_COLUMN[this.piecePosition] && this.pieceAlliance.isBlack()))))
+                {                    
                     if(board.getTile(candidateDestinationCoordinate).isTileOccupied())
                     {
                         final Piece pieceOnCandidate = board.getTile(candidateDestinationCoordinate).getPiece();
@@ -90,10 +100,23 @@ public class Pawn extends Piece
                         {
                             //more WORK to do 
                             legalMoves.add(new Move.PawnAttackMove(board, this, candidateDestinationCoordinate,pieceOnCandidate));
-                        }
+                        }                        
                     }
-                }
-        
+                    else if (board.getEnPassantPawn() != null) 
+                    {
+                        if(board.getEnPassantPawn().getPiecePosition() ==
+                        (this.piecePosition - (this.pieceAlliance.getOppositeDirection())))
+                        {
+                            final Piece candidatePiece = board.getEnPassantPawn();
+                            if (this.pieceAlliance != candidatePiece.getPieceAlliance()) 
+                            {
+                                legalMoves.add(
+                                new Move.PawnEnPassantAttackMove(board, this, candidateDestinationCoordinate, candidatePiece));                        
+                            }                            
+                        }
+                    }                
+
+                }        
         }
         return Collections.unmodifiableList(legalMoves);
     }
