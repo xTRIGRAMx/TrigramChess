@@ -33,39 +33,32 @@ public class Queen extends Piece {
         final List<Move>legalMoves =new ArrayList<>(); 
         for(final int currentCandidateOffset:CANDIDATE_MOVE_VECTOR_COORDINATE)
         {
-             /*
-            this is applying the offset to the current position 
-            in order to find all legal moves
-            */
             int candidateDestinationCoordinate = this.piecePosition;
             while(BoardUtil.isValidTileCoordinate(candidateDestinationCoordinate))
-            {                
-                candidateDestinationCoordinate += currentCandidateOffset;
-                if(BoardUtil.isValidTileCoordinate(candidateDestinationCoordinate))
-                {
-                    final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
-                    if(isFirstColumnExclusion(this.piecePosition, currentCandidateOffset)
-                       ||isEighthColumnExclusion(this.piecePosition, currentCandidateOffset)     )
+            {                                          
+                    if(isFirstColumnExclusion(candidateDestinationCoordinate, currentCandidateOffset)
+                       ||isEighthColumnExclusion(candidateDestinationCoordinate, currentCandidateOffset))
                     {
-                        continue;
-                    }                           
-                    /*
-                    if a tile destination is NOT occupied then it qualifies as a legal move
-                    */
-                    if(!candidateDestinationTile.isTileOccupied())
-                    {
-                        legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
-                    }else
-                    {
-                        final Piece pieceAtDestinationTile = candidateDestinationTile.getPiece();
-                        final Alliance pieceAlliance = pieceAtDestinationTile.getPieceAlliance();
-                        if(this.pieceAlliance != pieceAlliance)
-                        {
-                            legalMoves.add(new Move.MajorAttackMove(board, this, candidateDestinationCoordinate, pieceAtDestinationTile));
-                        } 
                         break;
-                    } 
-                }
+                    }  
+                    candidateDestinationCoordinate += currentCandidateOffset;                    
+                    if(BoardUtil.isValidTileCoordinate(candidateDestinationCoordinate))
+                    {
+                        final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
+                        if(!candidateDestinationTile.isTileOccupied())
+                        {
+                            legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
+                        }else
+                        {
+                            final Piece pieceAtDestinationTile = candidateDestinationTile.getPiece();
+                            final Alliance pieceAlliance = pieceAtDestinationTile.getPieceAlliance();
+                            if(this.pieceAlliance != pieceAlliance)
+                            {
+                                legalMoves.add(new Move.MajorAttackMove(board, this, candidateDestinationCoordinate, pieceAtDestinationTile));
+                            } 
+                            break;
+                        }                         
+                    }               
             }
         }
         return ImmutableList.copyOf(legalMoves);

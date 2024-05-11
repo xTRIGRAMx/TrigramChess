@@ -81,7 +81,7 @@ public abstract class Player {
     
     public boolean  isInStalemate()
     {
-        return !this.isInCheck && !!hasEscapeMoves();
+        return !this.isInCheck() && !hasEscapeMoves();
     }
     
     protected boolean hasEscapeMoves() {
