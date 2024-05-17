@@ -95,7 +95,7 @@ public abstract class Move
                 }           
             }             
             builder.setPiece(this.movedPiece.movePiece(this));
-            builder.setPiece(board.currentPlayer().playerKing);
+            
             builder.setMoveMaker(this.board.currentPlayer().getOpponent().getAlliance());
             return builder.build();      
     }
@@ -398,7 +398,7 @@ public abstract class Move
                 }           
             }             
             builder.setPiece(this.movedPiece.movePiece(this));
-            builder.setPiece(board.currentPlayer().playerKing);
+            
             builder.setMoveMaker(this.board.currentPlayer().getOpponent().getAlliance());
             return builder.build();
         }
