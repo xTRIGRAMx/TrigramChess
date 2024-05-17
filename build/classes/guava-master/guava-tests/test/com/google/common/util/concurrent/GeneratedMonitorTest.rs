@@ -1,0 +1,13 @@
+Timeout
+com.google.common.util.concurrent.GeneratedMonitorTest
+FlagGuard
+Scenario
+com.google.common.util.concurrent.GeneratedMonitorTest$3
+com.google.common.util.concurrent.GeneratedMonitorTest$4
+com.google.common.util.concurrent.GeneratedMonitorTest$1
+com.google.common.util.concurrent.GeneratedMonitorTest$2
+com.google.common.util.concurrent.GeneratedMonitorTest$7
+Outcome
+com.google.common.util.concurrent.GeneratedMonitorTest$5
+TimeoutsToUse
+com.google.common.util.concurrent.GeneratedMonitorTest$6

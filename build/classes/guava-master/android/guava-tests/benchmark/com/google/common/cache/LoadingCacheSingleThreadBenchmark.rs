@@ -1,0 +1,2 @@
+com.google.common.cache.LoadingCacheSingleThreadBenchmark
+com.google.common.cache.LoadingCacheSingleThreadBenchmark$1

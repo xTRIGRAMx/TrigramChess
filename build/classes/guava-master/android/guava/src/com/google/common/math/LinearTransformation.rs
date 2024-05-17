@@ -1,0 +1,5 @@
+com.google.common.math.LinearTransformation
+NaNLinearTransformation
+RegularLinearTransformation
+VerticalLinearTransformation
+LinearTransformationBuilder

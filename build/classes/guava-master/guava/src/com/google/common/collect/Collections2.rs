@@ -1,0 +1,7 @@
+PermutationCollection
+FilteredCollection
+TransformedCollection
+OrderedPermutationCollection
+com.google.common.collect.Collections2
+OrderedPermutationIterator
+PermutationIterator

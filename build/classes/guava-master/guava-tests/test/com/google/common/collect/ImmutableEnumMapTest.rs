@@ -1,0 +1,3 @@
+com.google.common.collect.ImmutableEnumMapTest
+com.google.common.collect.ImmutableEnumMapTest$1
+com.google.common.collect.ImmutableEnumMapTest$ImmutableEnumMapGenerator

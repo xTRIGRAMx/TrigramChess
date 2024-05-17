@@ -1,0 +1,3 @@
+com.google.common.util.concurrent.AbstractTransformFuture
+com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture
+com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture

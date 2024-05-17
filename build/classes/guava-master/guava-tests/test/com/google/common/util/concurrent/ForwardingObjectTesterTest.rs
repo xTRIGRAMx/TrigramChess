@@ -1,0 +1,3 @@
+com.google.common.util.concurrent.ForwardingObjectTesterTest
+com.google.common.util.concurrent.ForwardingObjectTesterTest$ForwardToDelegate
+com.google.common.util.concurrent.ForwardingObjectTesterTest$FailToForward

@@ -1,0 +1,5 @@
+com.google.common.base.FinalizableReferenceQueue$FinalizerLoader
+com.google.common.base.FinalizableReferenceQueue
+com.google.common.base.FinalizableReferenceQueue$DecoupledLoader
+com.google.common.base.FinalizableReferenceQueue$SystemLoader
+com.google.common.base.FinalizableReferenceQueue$DirectLoader

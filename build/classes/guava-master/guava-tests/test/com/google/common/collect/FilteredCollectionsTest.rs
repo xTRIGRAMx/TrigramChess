@@ -1,0 +1,13 @@
+com.google.common.collect.FilteredCollectionsTest$AbstractFilteredCollectionTest
+com.google.common.collect.FilteredCollectionsTest
+com.google.common.collect.FilteredCollectionsTest$1
+com.google.common.collect.FilteredCollectionsTest$Collections2FilterArrayListTest
+com.google.common.collect.FilteredCollectionsTest$IterablesFilterArrayListTest
+com.google.common.collect.FilteredCollectionsTest$SetsFilterNavigableSetTest
+com.google.common.collect.FilteredCollectionsTest$AbstractFilteredIterableTest
+com.google.common.collect.FilteredCollectionsTest$AbstractFilteredNavigableSetTest
+com.google.common.collect.FilteredCollectionsTest$SetsFilterHashSetTest
+com.google.common.collect.FilteredCollectionsTest$AbstractFilteredSortedSetTest
+com.google.common.collect.FilteredCollectionsTest$SetsFilterSortedSetTest$1
+com.google.common.collect.FilteredCollectionsTest$AbstractFilteredSetTest
+com.google.common.collect.FilteredCollectionsTest$SetsFilterSortedSetTest

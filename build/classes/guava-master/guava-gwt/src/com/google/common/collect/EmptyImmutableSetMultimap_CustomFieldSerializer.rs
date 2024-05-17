@@ -1,0 +1,1 @@
+com.google.common.collect.EmptyImmutableSetMultimap_CustomFieldSerializer

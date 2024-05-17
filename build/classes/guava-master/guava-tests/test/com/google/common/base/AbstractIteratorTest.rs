@@ -1,0 +1,11 @@
+com.google.common.base.AbstractIteratorTest$1
+com.google.common.base.AbstractIteratorTest$2
+com.google.common.base.AbstractIteratorTest$3
+com.google.common.base.AbstractIteratorTest$SomeCheckedException
+com.google.common.base.AbstractIteratorTest$4
+com.google.common.base.AbstractIteratorTest$5
+com.google.common.base.AbstractIteratorTest
+com.google.common.base.AbstractIteratorTest$6
+com.google.common.base.AbstractIteratorTest$7
+com.google.common.base.AbstractIteratorTest$1SneakyThrower
+com.google.common.base.AbstractIteratorTest$SomeUncheckedException

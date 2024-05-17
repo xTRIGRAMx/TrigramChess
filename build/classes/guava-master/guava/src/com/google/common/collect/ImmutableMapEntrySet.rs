@@ -1,0 +1,3 @@
+com.google.common.collect.ImmutableMapEntrySet$EntrySetSerializedForm
+com.google.common.collect.ImmutableMapEntrySet$RegularEntrySet
+com.google.common.collect.ImmutableMapEntrySet

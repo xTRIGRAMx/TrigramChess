@@ -1,0 +1,14 @@
+Dummies$DummyScheduledThreadPoolExecutor
+Dummies$InMemoryPrintWriter
+Dummies$DummyCountDownLatch
+Dummies$DummyRunnable
+Dummies$DummyThreadFactory
+Dummies
+Dummies$DeterministicRandom
+com.google.common.testing.ArbitraryInstances
+Dummies$DummyExecutor
+NullByteSink
+Dummies$InMemoryPrintStream
+com.google.common.testing.ArbitraryInstances$1
+AlwaysEqual
+ByToString

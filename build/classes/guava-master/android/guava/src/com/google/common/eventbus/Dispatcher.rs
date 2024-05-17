@@ -1,0 +1,8 @@
+PerThreadQueuedDispatcher$1
+PerThreadQueuedDispatcher$2
+ImmediateDispatcher
+PerThreadQueuedDispatcher
+PerThreadQueuedDispatcher$Event
+LegacyAsyncDispatcher
+LegacyAsyncDispatcher$EventWithSubscriber
+com.google.common.eventbus.Dispatcher

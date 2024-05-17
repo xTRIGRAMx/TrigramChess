@@ -1,0 +1,4 @@
+com.google.common.cache.TestingRemovalListeners$QueuingRemovalListener
+com.google.common.cache.TestingRemovalListeners$NullRemovalListener
+com.google.common.cache.TestingRemovalListeners
+com.google.common.cache.TestingRemovalListeners$CountingRemovalListener

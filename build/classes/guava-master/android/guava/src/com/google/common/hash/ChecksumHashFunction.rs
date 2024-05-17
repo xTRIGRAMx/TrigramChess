@@ -1,0 +1,2 @@
+ChecksumHasher
+com.google.common.hash.ChecksumHashFunction

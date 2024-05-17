@@ -1,0 +1,1 @@
+com.google.common.collect.RegularImmutableMap_CustomFieldSerializer

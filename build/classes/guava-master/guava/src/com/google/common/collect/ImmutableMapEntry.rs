@@ -1,0 +1,3 @@
+com.google.common.collect.ImmutableMapEntry
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableMapEntry
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableBiMapEntry

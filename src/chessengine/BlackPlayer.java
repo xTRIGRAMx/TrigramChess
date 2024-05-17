@@ -51,8 +51,8 @@ public class BlackPlayer extends Player
                        Player.calculateAttacksOnTile(6, opponentLegals).isEmpty()&&
                        rookTile.getPiece().getPieceType().isRook());
                     {
-                        kingCastles.add(new Move.KingSideCastleMove(board, 
-                                playerKing,
+                        kingCastles.add(new Move.KingSideCastleMove(this.board, 
+                                this.playerKing,
                                 6,
                                 (Rook)rookTile.getPiece(),
                                 rookTile.getTileCoordinate(),
@@ -86,8 +86,7 @@ public class BlackPlayer extends Player
                         });                        
                     }                    
                 }
-            }            
-            
+            }                        
         }
         return ImmutableList.copyOf(kingCastles);
     }    

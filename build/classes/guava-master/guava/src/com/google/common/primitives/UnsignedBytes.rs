@@ -1,0 +1,5 @@
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator
+com.google.common.primitives.UnsignedBytes
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator$1
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder

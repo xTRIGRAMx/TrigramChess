@@ -1,0 +1,4 @@
+DoubleArrayAsList
+com.google.common.primitives.Doubles
+DoubleConverter
+LexicographicalComparator

@@ -1,0 +1,11 @@
+com.google.common.testing.AbstractPackageSanityTestsTest$1
+EmptyTest
+com.google.common.testing.AbstractPackageSanityTestsTest
+PublicFoo
+EmptyTestCase
+Foo2Test
+Foo
+EmptyTests
+EmptyTestSuite
+FooTest
+Foo_Bar

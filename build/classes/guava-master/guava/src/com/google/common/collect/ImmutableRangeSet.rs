@@ -1,0 +1,9 @@
+com.google.common.collect.ImmutableRangeSet$AsSet$2
+com.google.common.collect.ImmutableRangeSet$AsSet$1
+com.google.common.collect.ImmutableRangeSet$Builder
+com.google.common.collect.ImmutableRangeSet$SerializedForm
+com.google.common.collect.ImmutableRangeSet$1
+com.google.common.collect.ImmutableRangeSet$AsSet
+com.google.common.collect.ImmutableRangeSet$ComplementRanges
+com.google.common.collect.ImmutableRangeSet$AsSetSerializedForm
+com.google.common.collect.ImmutableRangeSet

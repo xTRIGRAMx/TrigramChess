@@ -1,0 +1,4 @@
+com.google.common.collect.SynchronizedBiMapTest$SynchronizedHashBiMapGenerator
+com.google.common.collect.SynchronizedBiMapTest$SynchTestingBiMapGenerator
+com.google.common.collect.SynchronizedBiMapTest
+com.google.common.collect.SynchronizedBiMapTest$TestBiMap

@@ -1,0 +1,7 @@
+AsByteSource
+CharSequenceCharSource$1
+CharSequenceCharSource
+StringCharSource
+ConcatenatedCharSource
+com.google.common.io.CharSource
+EmptyCharSource

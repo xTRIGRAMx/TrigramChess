@@ -1,0 +1,6 @@
+ImmediateSuccessfulFuture
+ImmediateCancelledFuture
+ImmediateFailedCheckedFuture
+ImmediateFailedFuture
+ImmediateSuccessfulCheckedFuture
+com.google.common.util.concurrent.ImmediateFuture

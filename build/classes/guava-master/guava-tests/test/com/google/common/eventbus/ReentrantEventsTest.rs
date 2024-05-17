@@ -1,0 +1,4 @@
+com.google.common.eventbus.ReentrantEventsTest$EventRecorder
+com.google.common.eventbus.ReentrantEventsTest
+com.google.common.eventbus.ReentrantEventsTest$ReentrantEventsHater
+com.google.common.eventbus.ReentrantEventsTest$EventProcessor

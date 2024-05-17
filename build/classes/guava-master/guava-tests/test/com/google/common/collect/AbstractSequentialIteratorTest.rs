@@ -1,0 +1,9 @@
+com.google.common.collect.AbstractSequentialIteratorTest$2
+com.google.common.collect.AbstractSequentialIteratorTest$3
+com.google.common.collect.AbstractSequentialIteratorTest$MyException
+com.google.common.collect.AbstractSequentialIteratorTest$1
+com.google.common.collect.AbstractSequentialIteratorTest$6
+com.google.common.collect.AbstractSequentialIteratorTest$4
+com.google.common.collect.AbstractSequentialIteratorTest$5
+com.google.common.collect.AbstractSequentialIteratorTest$3$1
+com.google.common.collect.AbstractSequentialIteratorTest

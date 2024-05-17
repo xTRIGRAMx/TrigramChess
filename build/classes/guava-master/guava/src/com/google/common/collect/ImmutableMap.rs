@@ -1,0 +1,9 @@
+IteratorBasedImmutableMap
+IteratorBasedImmutableMap$1EntrySetImpl
+com.google.common.collect.ImmutableMap
+Builder
+MapViewOfValuesAsSingletonSets$1
+MapViewOfValuesAsSingletonSets$1$1
+MapViewOfValuesAsSingletonSets
+SerializedForm
+com.google.common.collect.ImmutableMap$1

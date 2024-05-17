@@ -1,0 +1,9 @@
+com.google.common.collect.testing.TestsForQueuesInJavaUtil
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$2
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$3
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$1
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$6
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$7
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$4
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$5
+com.google.common.collect.testing.TestsForQueuesInJavaUtil$8

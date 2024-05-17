@@ -1,0 +1,7 @@
+InvalidCacheLoadException
+com.google.common.cache.CacheLoader
+com.google.common.cache.CacheLoader$1$1
+com.google.common.cache.CacheLoader$1
+FunctionToCacheLoader
+SupplierToCacheLoader
+UnsupportedLoadingOperationException

@@ -1,0 +1,6 @@
+com.google.common.collect.SimpleAbstractMultisetTest$NoRemoveMultiset$1$1
+com.google.common.collect.SimpleAbstractMultisetTest$2
+com.google.common.collect.SimpleAbstractMultisetTest$NoRemoveMultiset$1
+com.google.common.collect.SimpleAbstractMultisetTest$1
+com.google.common.collect.SimpleAbstractMultisetTest$NoRemoveMultiset
+com.google.common.collect.SimpleAbstractMultisetTest

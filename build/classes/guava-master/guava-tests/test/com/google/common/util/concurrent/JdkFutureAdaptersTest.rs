@@ -1,0 +1,6 @@
+com.google.common.util.concurrent.JdkFutureAdaptersTest$RuntimeExceptionThrowingFuture
+com.google.common.util.concurrent.JdkFutureAdaptersTest$RecordingRunnable
+com.google.common.util.concurrent.JdkFutureAdaptersTest$1
+com.google.common.util.concurrent.JdkFutureAdaptersTest
+com.google.common.util.concurrent.JdkFutureAdaptersTest$SingleCallListener
+com.google.common.util.concurrent.JdkFutureAdaptersTest$NonListenableSettableFuture

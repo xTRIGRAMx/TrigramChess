@@ -1,0 +1,17 @@
+com.google.common.collect.OrderingTest$Scenario
+com.google.common.collect.OrderingTest$OrderingMutation
+com.google.common.collect.OrderingTest$OrderingMutation$4$1
+com.google.common.collect.OrderingTest$Composite
+com.google.common.collect.OrderingTest$StringLengthFunction
+com.google.common.collect.OrderingTest$OrderingMutation$2
+com.google.common.collect.OrderingTest
+com.google.common.collect.OrderingTest$OrderingMutation$3
+com.google.common.collect.OrderingTest$Composite$1
+com.google.common.collect.OrderingTest$1
+com.google.common.collect.OrderingTest$OrderingMutation$1
+com.google.common.collect.OrderingTest$OrderingMutation$6
+com.google.common.collect.OrderingTest$OrderingMutation$7
+com.google.common.collect.OrderingTest$CharAtFunction
+com.google.common.collect.OrderingTest$OrderingMutation$4
+com.google.common.collect.OrderingTest$NumberOrdering
+com.google.common.collect.OrderingTest$OrderingMutation$5

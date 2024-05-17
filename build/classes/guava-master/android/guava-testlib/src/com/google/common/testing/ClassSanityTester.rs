@@ -1,0 +1,11 @@
+com.google.common.testing.ClassSanityTester$1
+com.google.common.testing.ClassSanityTester$3
+com.google.common.testing.ClassSanityTester$2
+ParameterHasNoDistinctValueException
+com.google.common.testing.ClassSanityTester$5
+com.google.common.testing.ClassSanityTester$4
+FactoryMethodReturnsNullException
+SerializableDummyProxy
+FactoryMethodReturnValueTester
+com.google.common.testing.ClassSanityTester
+ParameterNotInstantiableException

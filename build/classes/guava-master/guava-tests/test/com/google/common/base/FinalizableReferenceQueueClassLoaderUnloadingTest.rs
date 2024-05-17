@@ -1,0 +1,5 @@
+com.google.common.base.FinalizableReferenceQueueClassLoaderUnloadingTest$FrqUser$1
+com.google.common.base.FinalizableReferenceQueueClassLoaderUnloadingTest
+com.google.common.base.FinalizableReferenceQueueClassLoaderUnloadingTest$PermissivePolicy
+com.google.common.base.FinalizableReferenceQueueClassLoaderUnloadingTest$MyFinalizableWeakReference
+com.google.common.base.FinalizableReferenceQueueClassLoaderUnloadingTest$FrqUser

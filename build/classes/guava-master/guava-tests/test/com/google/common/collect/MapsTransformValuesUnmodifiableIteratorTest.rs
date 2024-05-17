@@ -1,0 +1,8 @@
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$3
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$1
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$UnmodifiableIteratorMap$1
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$2
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$UnmodifiableIteratorMap$2
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$UnmodifiableIteratorMap$3
+com.google.common.collect.MapsTransformValuesUnmodifiableIteratorTest$UnmodifiableIteratorMap

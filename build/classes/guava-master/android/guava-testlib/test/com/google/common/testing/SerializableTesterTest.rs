@@ -1,0 +1,5 @@
+ClassWhichIsAlwaysEqualButHasDifferentHashcodes
+ObjectWhichIsEqualButChangesClass$OtherForm
+ObjectWhichIsEqualButChangesClass
+com.google.common.testing.SerializableTesterTest
+ClassWhichDoesNotImplementEquals

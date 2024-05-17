@@ -1,0 +1,7 @@
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark$NonCachingWithConstructorCheckValidator
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark$Result
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark$ExceptionType
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark$Validator
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark$1
+com.google.common.util.concurrent.FuturesGetCheckedBenchmark$NonCachingWithoutConstructorCheckValidator

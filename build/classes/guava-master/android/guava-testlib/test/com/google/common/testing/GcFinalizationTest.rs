@@ -1,0 +1,9 @@
+Interruptenator
+com.google.common.testing.GcFinalizationTest
+Interruptenator$1
+com.google.common.testing.GcFinalizationTest$1
+com.google.common.testing.GcFinalizationTest$2
+com.google.common.testing.GcFinalizationTest$5
+com.google.common.testing.GcFinalizationTest$6
+com.google.common.testing.GcFinalizationTest$3
+com.google.common.testing.GcFinalizationTest$4

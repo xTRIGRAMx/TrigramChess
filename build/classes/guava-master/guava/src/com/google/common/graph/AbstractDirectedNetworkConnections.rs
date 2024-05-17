@@ -1,0 +1,2 @@
+com.google.common.graph.AbstractDirectedNetworkConnections$1
+com.google.common.graph.AbstractDirectedNetworkConnections

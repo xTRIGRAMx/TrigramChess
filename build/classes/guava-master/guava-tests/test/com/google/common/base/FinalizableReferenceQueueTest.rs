@@ -1,0 +1,6 @@
+com.google.common.base.FinalizableReferenceQueueTest$MockReference
+com.google.common.base.FinalizableReferenceQueueTest$1
+com.google.common.base.FinalizableReferenceQueueTest$2
+com.google.common.base.FinalizableReferenceQueueTest$3
+com.google.common.base.FinalizableReferenceQueueTest$DecoupledClassLoader
+com.google.common.base.FinalizableReferenceQueueTest

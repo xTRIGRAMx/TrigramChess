@@ -1,0 +1,2 @@
+com.google.common.hash.Murmur3_32HashFunction
+Murmur3_32Hasher

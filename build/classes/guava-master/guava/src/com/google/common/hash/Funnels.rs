@@ -1,0 +1,9 @@
+com.google.common.hash.Funnels$StringCharsetFunnel
+com.google.common.hash.Funnels$SequentialFunnel
+com.google.common.hash.Funnels$UnencodedCharsFunnel
+com.google.common.hash.Funnels$SinkAsStream
+com.google.common.hash.Funnels$StringCharsetFunnel$SerializedForm
+com.google.common.hash.Funnels$ByteArrayFunnel
+com.google.common.hash.Funnels$IntegerFunnel
+com.google.common.hash.Funnels$LongFunnel
+com.google.common.hash.Funnels

@@ -1,0 +1,13 @@
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState$StoppedGuard
+com.google.common.util.concurrent.ServiceManager
+com.google.common.util.concurrent.ServiceManager$Listener
+com.google.common.util.concurrent.ServiceManager$NoOpService
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState$AwaitHealthGuard
+com.google.common.util.concurrent.ServiceManager$ServiceListener
+com.google.common.util.concurrent.ServiceManager$EmptyServiceManagerWarning
+com.google.common.util.concurrent.ServiceManager$1
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState$1
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState$2
+com.google.common.util.concurrent.ServiceManager$FailedService
+com.google.common.util.concurrent.ServiceManager$2

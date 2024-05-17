@@ -1,0 +1,7 @@
+com.google.common.primitives.ByteArrayAsListTest$BytesAsListGenerator
+com.google.common.primitives.ByteArrayAsListTest$BytesAsListTailSubListGenerator
+com.google.common.primitives.ByteArrayAsListTest$TestByteListGenerator
+com.google.common.primitives.ByteArrayAsListTest
+com.google.common.primitives.ByteArrayAsListTest$BytesAsListHeadSubListGenerator
+com.google.common.primitives.ByteArrayAsListTest$SampleBytes
+com.google.common.primitives.ByteArrayAsListTest$BytesAsListMiddleSubListGenerator

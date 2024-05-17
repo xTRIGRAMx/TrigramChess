@@ -1,0 +1,16 @@
+InstanceOfPredicate
+AndPredicate
+ContainsPatternPredicate
+ContainsPatternFromStringPredicate
+InPredicate
+NotPredicate
+IsEqualToPredicate
+ObjectPredicate$1
+ObjectPredicate$2
+ObjectPredicate$3
+CompositionPredicate
+OrPredicate
+SubtypeOfPredicate
+com.google.common.base.Predicates
+ObjectPredicate$4
+ObjectPredicate

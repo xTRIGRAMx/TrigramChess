@@ -1,0 +1,6 @@
+com.google.common.hash.MessageDigestAlgorithmBenchmark$HashMethod$1
+com.google.common.hash.MessageDigestAlgorithmBenchmark$HashMethod$2
+com.google.common.hash.MessageDigestAlgorithmBenchmark$HashMethod$3
+com.google.common.hash.MessageDigestAlgorithmBenchmark$HashMethod
+com.google.common.hash.MessageDigestAlgorithmBenchmark$Algorithm
+com.google.common.hash.MessageDigestAlgorithmBenchmark

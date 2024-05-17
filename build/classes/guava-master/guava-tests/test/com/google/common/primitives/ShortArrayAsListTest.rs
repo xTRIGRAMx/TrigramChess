@@ -1,0 +1,7 @@
+com.google.common.primitives.ShortArrayAsListTest$ShortsAsListTailSubListGenerator
+com.google.common.primitives.ShortArrayAsListTest
+com.google.common.primitives.ShortArrayAsListTest$ShortsAsListMiddleSubListGenerator
+com.google.common.primitives.ShortArrayAsListTest$ShortsAsListGenerator
+com.google.common.primitives.ShortArrayAsListTest$ShortsAsListHeadSubListGenerator
+com.google.common.primitives.ShortArrayAsListTest$SampleShorts
+com.google.common.primitives.ShortArrayAsListTest$TestShortListGenerator

@@ -1,0 +1,2 @@
+EnumSerializedForm
+com.google.common.collect.ImmutableEnumMap

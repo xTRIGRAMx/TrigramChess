@@ -1,0 +1,4 @@
+ImmutableBiMapGenerator
+com.google.common.collect.testing.google.BiMapGenerators
+ImmutableBiMapCopyOfGenerator
+ImmutableBiMapCopyOfEntriesGenerator

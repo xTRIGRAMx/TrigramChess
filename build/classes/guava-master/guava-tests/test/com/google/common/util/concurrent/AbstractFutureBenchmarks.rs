@@ -1,0 +1,9 @@
+com.google.common.util.concurrent.AbstractFutureBenchmarks$OldAbstractFuture
+com.google.common.util.concurrent.AbstractFutureBenchmarks$NewAbstractFutureFacade
+com.google.common.util.concurrent.AbstractFutureBenchmarks$OldAbstractFutureFacade
+com.google.common.util.concurrent.AbstractFutureBenchmarks$Facade
+com.google.common.util.concurrent.AbstractFutureBenchmarks$Impl$1
+com.google.common.util.concurrent.AbstractFutureBenchmarks$Impl$2
+com.google.common.util.concurrent.AbstractFutureBenchmarks$OldAbstractFuture$Sync
+com.google.common.util.concurrent.AbstractFutureBenchmarks$Impl
+com.google.common.util.concurrent.AbstractFutureBenchmarks

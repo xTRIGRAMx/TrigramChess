@@ -1,0 +1,7 @@
+com.google.common.primitives.IntArrayAsListTest$IntsAsListMiddleSubListGenerator
+com.google.common.primitives.IntArrayAsListTest$IntsAsListTailSubListGenerator
+com.google.common.primitives.IntArrayAsListTest$IntsAsListHeadSubListGenerator
+com.google.common.primitives.IntArrayAsListTest$SampleIntegers
+com.google.common.primitives.IntArrayAsListTest$IntsAsListGenerator
+com.google.common.primitives.IntArrayAsListTest
+com.google.common.primitives.IntArrayAsListTest$TestIntegerListGenerator

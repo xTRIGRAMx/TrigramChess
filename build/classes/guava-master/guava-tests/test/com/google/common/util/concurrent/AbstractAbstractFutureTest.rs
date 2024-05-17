@@ -1,0 +1,8 @@
+com.google.common.util.concurrent.AbstractAbstractFutureTest$TestedFuture
+com.google.common.util.concurrent.AbstractAbstractFutureTest
+com.google.common.util.concurrent.AbstractAbstractFutureTest$2BadRunnableException
+com.google.common.util.concurrent.AbstractAbstractFutureTest$CountingRunnable
+com.google.common.util.concurrent.AbstractAbstractFutureTest$1BadRunnableException
+com.google.common.util.concurrent.AbstractAbstractFutureTest$3
+com.google.common.util.concurrent.AbstractAbstractFutureTest$2
+com.google.common.util.concurrent.AbstractAbstractFutureTest$1

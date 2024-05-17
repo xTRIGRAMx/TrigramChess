@@ -1,0 +1,3 @@
+com.google.common.testing.ForwardingWrapperTester$1
+InteractionTester
+com.google.common.testing.ForwardingWrapperTester

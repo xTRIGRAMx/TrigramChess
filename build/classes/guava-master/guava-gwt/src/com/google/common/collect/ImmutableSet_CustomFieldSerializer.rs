@@ -1,0 +1,1 @@
+com.google.common.collect.ImmutableSet_CustomFieldSerializer

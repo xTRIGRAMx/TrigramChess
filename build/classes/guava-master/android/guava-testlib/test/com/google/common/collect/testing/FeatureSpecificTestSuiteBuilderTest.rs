@@ -1,0 +1,5 @@
+com.google.common.collect.testing.FeatureSpecificTestSuiteBuilderTest
+com.google.common.collect.testing.FeatureSpecificTestSuiteBuilderTest$1
+com.google.common.collect.testing.FeatureSpecificTestSuiteBuilderTest$2
+MyAbstractTester
+MyTestSuiteBuilder

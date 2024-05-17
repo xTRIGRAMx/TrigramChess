@@ -1,0 +1,7 @@
+InvalidEqualsNullObject
+InvalidEqualsIncompatibleClassObject
+com.google.common.testing.EqualsTesterTest
+NamedObject
+NonReflexiveObject
+ValidTestObject
+InvalidHashCodeObject

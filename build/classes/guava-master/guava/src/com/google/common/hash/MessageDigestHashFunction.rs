@@ -1,0 +1,3 @@
+com.google.common.hash.MessageDigestHashFunction
+com.google.common.hash.MessageDigestHashFunction$MessageDigestHasher
+com.google.common.hash.MessageDigestHashFunction$SerializedForm

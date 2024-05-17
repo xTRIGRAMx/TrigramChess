@@ -1,0 +1,17 @@
+com.google.common.collect.Streams$2Splitr
+com.google.common.collect.Streams$FunctionWithIndex
+com.google.common.collect.Streams$LongFunctionWithIndex
+com.google.common.collect.Streams
+com.google.common.collect.Streams$1Splitr
+com.google.common.collect.Streams$IntFunctionWithIndex
+com.google.common.collect.Streams$3
+com.google.common.collect.Streams$2
+com.google.common.collect.Streams$MapWithIndexSpliterator
+com.google.common.collect.Streams$1
+com.google.common.collect.Streams$DoubleFunctionWithIndex
+com.google.common.collect.Streams$TemporaryPair
+com.google.common.collect.Streams$1OptionalState
+com.google.common.collect.Streams$5
+com.google.common.collect.Streams$4
+com.google.common.collect.Streams$3Splitr
+com.google.common.collect.Streams$4Splitr

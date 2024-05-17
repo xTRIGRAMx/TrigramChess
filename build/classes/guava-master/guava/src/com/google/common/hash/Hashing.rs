@@ -1,0 +1,11 @@
+com.google.common.hash.Hashing$ChecksumType$1
+com.google.common.hash.Hashing$ChecksumType
+com.google.common.hash.Hashing$LinearCongruentialGenerator
+com.google.common.hash.Hashing$Md5Holder
+com.google.common.hash.Hashing$Sha256Holder
+com.google.common.hash.Hashing$Sha512Holder
+com.google.common.hash.Hashing
+com.google.common.hash.Hashing$Sha384Holder
+com.google.common.hash.Hashing$Sha1Holder
+com.google.common.hash.Hashing$ChecksumType$2
+com.google.common.hash.Hashing$ConcatenatedHashFunction

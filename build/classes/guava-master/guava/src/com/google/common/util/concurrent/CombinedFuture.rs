@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.CombinedFuture
+com.google.common.util.concurrent.CombinedFuture$CombinedFutureInterruptibleTask
+com.google.common.util.concurrent.CombinedFuture$AsyncCallableInterruptibleTask
+com.google.common.util.concurrent.CombinedFuture$CallableInterruptibleTask
+com.google.common.util.concurrent.CombinedFuture$CombinedFutureRunningState

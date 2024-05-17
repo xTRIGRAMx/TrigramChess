@@ -1,0 +1,2 @@
+com.google.common.hash.Murmur3_128HashFunction
+com.google.common.hash.Murmur3_128HashFunction$Murmur3_128Hasher

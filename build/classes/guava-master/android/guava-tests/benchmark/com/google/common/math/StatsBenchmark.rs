@@ -1,0 +1,11 @@
+MeanAlgorithm$3
+VarianceAlgorithm$3
+MeanAlgorithm$2
+VarianceAlgorithm$2
+MeanAlgorithm
+VarianceAlgorithm$4
+VarianceAlgorithm
+VarianceAlgorithm$1
+MeanAndVariance
+com.google.common.math.StatsBenchmark
+MeanAlgorithm$1

@@ -1,0 +1,9 @@
+A
+B
+SubHandler1
+com.google.common.reflect.AbstractInvocationHandlerTest
+com.google.common.reflect.AbstractInvocationHandlerTest$1AB
+DelegatingInvocationHandlerWithEquals
+SubHandler2
+com.google.common.reflect.AbstractInvocationHandlerTest$1BA
+DelegatingInvocationHandler

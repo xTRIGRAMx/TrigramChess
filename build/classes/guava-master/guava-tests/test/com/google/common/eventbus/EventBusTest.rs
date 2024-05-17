@@ -1,0 +1,11 @@
+com.google.common.eventbus.EventBusTest$3
+com.google.common.eventbus.EventBusTest$4
+com.google.common.eventbus.EventBusTest$5
+com.google.common.eventbus.EventBusTest$Callback
+com.google.common.eventbus.EventBusTest$6
+com.google.common.eventbus.EventBusTest$Registrator
+com.google.common.eventbus.EventBusTest$1
+com.google.common.eventbus.EventBusTest$RecordingSubscriberExceptionHandler
+com.google.common.eventbus.EventBusTest$2
+com.google.common.eventbus.EventBusTest
+com.google.common.eventbus.EventBusTest$GhostCatcher

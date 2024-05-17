@@ -1,0 +1,12 @@
+Listener
+ServiceListener
+ServiceManagerState$StoppedGuard
+ServiceManagerState$2
+ServiceManagerState$1
+com.google.common.util.concurrent.ServiceManager
+NoOpService
+com.google.common.util.concurrent.ServiceManager$1
+ServiceManagerState$AwaitHealthGuard
+EmptyServiceManagerWarning
+ServiceManagerState
+com.google.common.util.concurrent.ServiceManager$2

@@ -25,6 +25,10 @@ public enum Alliance
             return -1 ;
         }
         @Override
+        public int getOppositeDirection() {
+            return 1;
+        }
+        @Override
         public Player choosePlayer(final WhitePlayer whitePlayer,final BlackPlayer blackPlayer)
         {
             return whitePlayer;
@@ -33,6 +37,11 @@ public enum Alliance
         public String toString() {
             return "White";
         }        
+
+        @Override
+        public boolean isPawnPromotionSquare(int position) {
+            return BoardUtil.EIGHTH_RANK[position];
+        }
     },
     
     Black 
@@ -49,10 +58,16 @@ public enum Alliance
         {
             return true;
         }
+        
         @Override
         public int getDirection() 
         {
             return 1 ;
+        }
+  
+        @Override
+        public int getOppositeDirection() {
+            return -1;
         }
         @Override
         public Player choosePlayer(final WhitePlayer whitePlayer,final BlackPlayer blackPlayer)
@@ -63,10 +78,17 @@ public enum Alliance
         public String toString() {
             return "Black";
         }        
+
+        @Override
+        public boolean isPawnPromotionSquare(int position) {
+            return BoardUtil.FIRST_RANK[position];
+        }
     };
     public abstract int getDirection();
+    public abstract int getOppositeDirection();
     public abstract boolean isBlack();
     public abstract boolean isWhite();
+    public abstract boolean isPawnPromotionSquare(int position);
     public abstract Player choosePlayer(WhitePlayer whitePlayer, BlackPlayer blackPlayer);
     
     

@@ -1,0 +1,9 @@
+com.google.common.base.Suppliers$MemoizingSupplier
+com.google.common.base.Suppliers$ThreadSafeSupplier
+com.google.common.base.Suppliers$ExpiringMemoizingSupplier
+com.google.common.base.Suppliers$NonSerializableMemoizingSupplier
+com.google.common.base.Suppliers$SupplierOfInstance
+com.google.common.base.Suppliers
+com.google.common.base.Suppliers$SupplierFunctionImpl
+com.google.common.base.Suppliers$SupplierFunction
+com.google.common.base.Suppliers$SupplierComposition

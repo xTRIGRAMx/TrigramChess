@@ -1,0 +1,2 @@
+com.google.common.io.CountingInputStreamTest$UnmarkableInputStream
+com.google.common.io.CountingInputStreamTest

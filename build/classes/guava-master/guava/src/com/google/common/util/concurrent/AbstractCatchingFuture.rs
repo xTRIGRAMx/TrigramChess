@@ -1,0 +1,3 @@
+com.google.common.util.concurrent.AbstractCatchingFuture$CatchingFuture
+com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture
+com.google.common.util.concurrent.AbstractCatchingFuture

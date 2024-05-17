@@ -1,0 +1,8 @@
+com.google.common.eventbus.SubscriberRegistryTest$HierarchyFixture
+com.google.common.eventbus.SubscriberRegistryTest$HierarchyFixtureSubinterface
+com.google.common.eventbus.SubscriberRegistryTest$StringSubscriber
+com.google.common.eventbus.SubscriberRegistryTest$IntegerSubscriber
+com.google.common.eventbus.SubscriberRegistryTest$HierarchyFixtureInterface
+com.google.common.eventbus.SubscriberRegistryTest
+com.google.common.eventbus.SubscriberRegistryTest$HierarchyFixtureParent
+com.google.common.eventbus.SubscriberRegistryTest$ObjectSubscriber

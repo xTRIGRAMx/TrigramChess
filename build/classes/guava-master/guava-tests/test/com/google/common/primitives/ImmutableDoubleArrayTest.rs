@@ -1,0 +1,16 @@
+com.google.common.primitives.ImmutableDoubleArrayTest$ImmutableDoubleArrayMiddleSubListAsListGenerator
+com.google.common.primitives.ImmutableDoubleArrayTest$ImmutableDoubleArrayHeadSubListAsListGenerator
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp
+com.google.common.primitives.ImmutableDoubleArrayTest
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$6
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$5
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$7
+com.google.common.primitives.ImmutableDoubleArrayTest$TestDoubleListGenerator
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$2
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$1
+com.google.common.primitives.ImmutableDoubleArrayTest$1
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$4
+com.google.common.primitives.ImmutableDoubleArrayTest$BuilderOp$3
+com.google.common.primitives.ImmutableDoubleArrayTest$ImmutableDoubleArrayAsListGenerator
+com.google.common.primitives.ImmutableDoubleArrayTest$ImmutableDoubleArrayTailSubListAsListGenerator
+com.google.common.primitives.ImmutableDoubleArrayTest$SampleDoubles

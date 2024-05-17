@@ -1,0 +1,11 @@
+ExampleBaseInterface
+ExampleBaseFeature$Require
+ExampleDerivedInterfaceTester_Conflict
+ExampleDerivedInterfaceTester
+com.google.common.collect.testing.features.FeatureUtilTest
+ExampleBaseFeature
+ExampleDerivedFeature$Require
+ExampleDerivedInterface
+NonTesterAnnotation
+ExampleBaseInterfaceTester
+ExampleDerivedFeature

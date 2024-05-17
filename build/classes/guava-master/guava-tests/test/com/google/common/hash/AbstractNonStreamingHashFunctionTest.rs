@@ -1,0 +1,4 @@
+com.google.common.hash.AbstractNonStreamingHashFunctionTest$StreamingVersion
+com.google.common.hash.AbstractNonStreamingHashFunctionTest
+com.google.common.hash.AbstractNonStreamingHashFunctionTest$StreamingVersion$1
+com.google.common.hash.AbstractNonStreamingHashFunctionTest$NonStreamingVersion

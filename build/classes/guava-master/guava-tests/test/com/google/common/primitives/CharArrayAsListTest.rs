@@ -1,0 +1,7 @@
+com.google.common.primitives.CharArrayAsListTest$CharsAsListMiddleSubListGenerator
+com.google.common.primitives.CharArrayAsListTest$CharsAsListHeadSubListGenerator
+com.google.common.primitives.CharArrayAsListTest$SampleChars
+com.google.common.primitives.CharArrayAsListTest$TestCharListGenerator
+com.google.common.primitives.CharArrayAsListTest$CharsAsListTailSubListGenerator
+com.google.common.primitives.CharArrayAsListTest$CharsAsListGenerator
+com.google.common.primitives.CharArrayAsListTest

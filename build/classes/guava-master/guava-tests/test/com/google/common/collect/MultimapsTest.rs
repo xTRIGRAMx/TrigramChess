@@ -1,0 +1,16 @@
+com.google.common.collect.MultimapsTest$2$1
+com.google.common.collect.MultimapsTest$Color
+com.google.common.collect.MultimapsTest$CountingSupplier
+com.google.common.collect.MultimapsTest$SetSupplier
+com.google.common.collect.MultimapsTest
+com.google.common.collect.MultimapsTest$SortedSetSupplier
+com.google.common.collect.MultimapsTest$4
+com.google.common.collect.MultimapsTest$QueueSupplier
+com.google.common.collect.MultimapsTest$3
+com.google.common.collect.MultimapsTest$2
+com.google.common.collect.MultimapsTest$1
+com.google.common.collect.MultimapsTest$ListSupplier
+com.google.common.collect.MultimapsTest$8
+com.google.common.collect.MultimapsTest$7
+com.google.common.collect.MultimapsTest$6
+com.google.common.collect.MultimapsTest$5

@@ -21,25 +21,22 @@ public class Bishop extends Piece
         final List<Move>legalMoves =new ArrayList<>(); 
         for(final int currentCandidateOffset:CANDIDATE_MOVE_VECTOR_COORDINATE)
         {
-             /*
-            this is applying the offset to the current position 
-            in order to find all legal moves
-            */
             int candidateDestinationCoordinate = this.piecePosition;
             while(BoardUtil.isValidTileCoordinate(candidateDestinationCoordinate))
             {                
+                if(isFirstColumnExclusion(candidateDestinationCoordinate, currentCandidateOffset)
+                    ||isEighthColumnExclusion(candidateDestinationCoordinate, currentCandidateOffset)     )
+                {
+                    break;
+                }
                 candidateDestinationCoordinate += currentCandidateOffset;
                 if(BoardUtil.isValidTileCoordinate(candidateDestinationCoordinate))
                 {
-                    final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
-                    if(isFirstColumnExclusion(this.piecePosition, currentCandidateOffset)
-                       ||isEighthColumnExclusion(this.piecePosition, currentCandidateOffset)     )
-                    {
-                        continue;
-                    }                           
+                    final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);                          
                     /*
                     if a tile destination is NOT occupied then it qualifies as a legal move
                     */
+
                     if(!candidateDestinationTile.isTileOccupied())
                     {
                         legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCoordinate));
@@ -49,7 +46,7 @@ public class Bishop extends Piece
                         final Alliance pieceAlliance = pieceAtDestinationTile.getPieceAlliance();
                         if(this.pieceAlliance != pieceAlliance)
                         {
-                            legalMoves.add(new Move.AttackMove(board, this, candidateDestinationCoordinate, pieceAtDestinationTile));
+                            legalMoves.add(new Move.MajorAttackMove(board, this, candidateDestinationCoordinate, pieceAtDestinationTile));
                         } 
                         break;
                     } 

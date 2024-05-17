@@ -1,0 +1,15 @@
+com.google.common.cache.CacheBuilderSpec$ConcurrencyLevelParser
+com.google.common.cache.CacheBuilderSpec$InitialCapacityParser
+com.google.common.cache.CacheBuilderSpec$WriteDurationParser
+com.google.common.cache.CacheBuilderSpec$RecordStatsParser
+com.google.common.cache.CacheBuilderSpec$ValueStrengthParser
+com.google.common.cache.CacheBuilderSpec$RefreshDurationParser
+com.google.common.cache.CacheBuilderSpec$LongParser
+com.google.common.cache.CacheBuilderSpec$IntegerParser
+com.google.common.cache.CacheBuilderSpec$AccessDurationParser
+com.google.common.cache.CacheBuilderSpec$MaximumWeightParser
+com.google.common.cache.CacheBuilderSpec$DurationParser
+com.google.common.cache.CacheBuilderSpec$ValueParser
+com.google.common.cache.CacheBuilderSpec$MaximumSizeParser
+com.google.common.cache.CacheBuilderSpec$KeyStrengthParser
+com.google.common.cache.CacheBuilderSpec

@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.AbstractIdleServiceTest$3$1
+com.google.common.util.concurrent.AbstractIdleServiceTest$TestService
+com.google.common.util.concurrent.AbstractIdleServiceTest$FunctionalTest$1
+com.google.common.util.concurrent.AbstractIdleServiceTest
+com.google.common.util.concurrent.AbstractIdleServiceTest$FunctionalTest$2
+com.google.common.util.concurrent.AbstractIdleServiceTest$3
+com.google.common.util.concurrent.AbstractIdleServiceTest$FunctionalTest
+com.google.common.util.concurrent.AbstractIdleServiceTest$2
+com.google.common.util.concurrent.AbstractIdleServiceTest$FunctionalTest$DefaultService
+com.google.common.util.concurrent.AbstractIdleServiceTest$1

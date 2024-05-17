@@ -1,0 +1,13 @@
+com.google.common.reflect.ClassPathTest$1
+com.google.common.reflect.ClassPathTest$2
+com.google.common.reflect.ClassPathTest$3
+ResourceScanner
+com.google.common.reflect.ClassPathTest
+com.google.common.reflect.ClassPathTest$4
+com.google.common.reflect.ClassPathTest$5
+com.google.common.reflect.ClassPathTest$6
+com.google.common.reflect.ClassPathTest$7
+com.google.common.reflect.ClassPathTest$8
+Nested
+JarFileFinder$StopScanningException
+JarFileFinder

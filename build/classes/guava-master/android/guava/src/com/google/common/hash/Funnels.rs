@@ -1,0 +1,9 @@
+ByteArrayFunnel
+StringCharsetFunnel
+UnencodedCharsFunnel
+LongFunnel
+SequentialFunnel
+SinkAsStream
+IntegerFunnel
+com.google.common.hash.Funnels
+StringCharsetFunnel$SerializedForm

@@ -1,0 +1,7 @@
+com.google.common.primitives.FloatArrayAsListTest$FloatsAsListMiddleSubListGenerator
+com.google.common.primitives.FloatArrayAsListTest$FloatsAsListTailSubListGenerator
+com.google.common.primitives.FloatArrayAsListTest$FloatsAsListHeadSubListGenerator
+com.google.common.primitives.FloatArrayAsListTest$FloatsAsListGenerator
+com.google.common.primitives.FloatArrayAsListTest
+com.google.common.primitives.FloatArrayAsListTest$SampleFloats
+com.google.common.primitives.FloatArrayAsListTest$TestFloatListGenerator

@@ -1,0 +1,11 @@
+com.google.common.collect.Collections2Test$7
+com.google.common.collect.Collections2Test$6
+com.google.common.collect.Collections2Test$9
+com.google.common.collect.Collections2Test$8
+com.google.common.collect.Collections2Test$10
+com.google.common.collect.Collections2Test
+com.google.common.collect.Collections2Test$1
+com.google.common.collect.Collections2Test$3
+com.google.common.collect.Collections2Test$2
+com.google.common.collect.Collections2Test$5
+com.google.common.collect.Collections2Test$4

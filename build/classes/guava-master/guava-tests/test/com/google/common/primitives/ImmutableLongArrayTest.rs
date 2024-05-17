@@ -1,0 +1,16 @@
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$7
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$6
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$5
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$4
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$3
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$2
+com.google.common.primitives.ImmutableLongArrayTest$BuilderOp$1
+com.google.common.primitives.ImmutableLongArrayTest$ImmutableLongArrayAsListGenerator
+com.google.common.primitives.ImmutableLongArrayTest$ImmutableLongArrayMiddleSubListAsListGenerator
+com.google.common.primitives.ImmutableLongArrayTest$ImmutableLongArrayTailSubListAsListGenerator
+com.google.common.primitives.ImmutableLongArrayTest$SampleLongs
+com.google.common.primitives.ImmutableLongArrayTest
+com.google.common.primitives.ImmutableLongArrayTest$TestLongListGenerator
+com.google.common.primitives.ImmutableLongArrayTest$1
+com.google.common.primitives.ImmutableLongArrayTest$ImmutableLongArrayHeadSubListAsListGenerator

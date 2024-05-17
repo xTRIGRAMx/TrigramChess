@@ -1,0 +1,3 @@
+com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask
+com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask
+com.google.common.util.concurrent.TrustedListenableFutureTask

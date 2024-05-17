@@ -1,0 +1,12 @@
+com.google.common.collect.Tables$TransposeTable$1
+com.google.common.collect.Tables
+com.google.common.collect.Tables$TransformedTable
+com.google.common.collect.Tables$AbstractCell
+com.google.common.collect.Tables$TransformedTable$3
+com.google.common.collect.Tables$TransformedTable$2
+com.google.common.collect.Tables$1
+com.google.common.collect.Tables$ImmutableCell
+com.google.common.collect.Tables$TransformedTable$1
+com.google.common.collect.Tables$UnmodifiableTable
+com.google.common.collect.Tables$TransposeTable
+com.google.common.collect.Tables$UnmodifiableRowSortedMap

@@ -1,0 +1,13 @@
+com.google.common.collect.Iterables$2
+com.google.common.collect.Iterables$3
+com.google.common.collect.Iterables$4
+com.google.common.collect.Iterables
+com.google.common.collect.Iterables$5
+com.google.common.collect.Iterables$6
+com.google.common.collect.Iterables$7
+com.google.common.collect.Iterables$8
+com.google.common.collect.Iterables$9
+com.google.common.collect.Iterables$10
+UnmodifiableIterable
+com.google.common.collect.Iterables$6$1
+com.google.common.collect.Iterables$1

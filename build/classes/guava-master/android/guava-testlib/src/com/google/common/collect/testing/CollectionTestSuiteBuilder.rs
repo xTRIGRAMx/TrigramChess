@@ -1,0 +1,2 @@
+ReserializedCollectionGenerator
+com.google.common.collect.testing.CollectionTestSuiteBuilder

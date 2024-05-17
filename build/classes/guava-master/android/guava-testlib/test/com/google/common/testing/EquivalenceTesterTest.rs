@@ -1,0 +1,3 @@
+com.google.common.testing.EquivalenceTesterTest
+TestObject
+MockEquivalence

@@ -1,0 +1,3 @@
+com.google.common.hash.AbstractNonStreamingHashFunction
+com.google.common.hash.AbstractNonStreamingHashFunction$ExposedByteArrayOutputStream
+com.google.common.hash.AbstractNonStreamingHashFunction$BufferingHasher

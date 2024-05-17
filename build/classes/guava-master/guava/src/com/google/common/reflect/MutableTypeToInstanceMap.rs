@@ -1,0 +1,4 @@
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry$1
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry$2
+com.google.common.reflect.MutableTypeToInstanceMap
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry

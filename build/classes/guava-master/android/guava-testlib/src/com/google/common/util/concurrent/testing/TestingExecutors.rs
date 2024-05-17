@@ -1,0 +1,3 @@
+com.google.common.util.concurrent.testing.TestingExecutors
+NoOpScheduledExecutorService
+NoOpScheduledExecutorService$NeverScheduledFuture

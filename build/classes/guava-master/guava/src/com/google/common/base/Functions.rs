@@ -1,0 +1,9 @@
+com.google.common.base.Functions
+com.google.common.base.Functions$ConstantFunction
+com.google.common.base.Functions$ToStringFunction
+com.google.common.base.Functions$FunctionForMapNoDefault
+com.google.common.base.Functions$FunctionComposition
+com.google.common.base.Functions$PredicateFunction
+com.google.common.base.Functions$IdentityFunction
+com.google.common.base.Functions$ForMapWithDefault
+com.google.common.base.Functions$SupplierFunction

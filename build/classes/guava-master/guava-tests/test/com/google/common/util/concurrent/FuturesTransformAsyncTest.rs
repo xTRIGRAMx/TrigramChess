@@ -1,0 +1,4 @@
+com.google.common.util.concurrent.FuturesTransformAsyncTest
+com.google.common.util.concurrent.FuturesTransformAsyncTest$BadFuture
+com.google.common.util.concurrent.FuturesTransformAsyncTest$1
+com.google.common.util.concurrent.FuturesTransformAsyncTest$ChainingFunction
